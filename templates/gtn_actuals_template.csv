@@ -1,0 +1,2 @@
+month,brand,gross_sales,rebates,chargebacks,medicaid,medicare,copay,returns,admin_fees,other_deductions,units,wac_price,commercial_mix_pct,medicaid_mix_pct,medicare_mix_pct,specialty_channel_mix_pct
+2021-01-01,Dovato,1553292.54,201928.03,79217.92,49705.36,43492.19,21746.1,16669.93,7766.46,6213.17,408,3356.02,0.602,0.095,0.188,0.276

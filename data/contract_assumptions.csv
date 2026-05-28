@@ -1,0 +1,5 @@
+brand,payer_channel,rebate_rate,admin_fee_rate,chargeback_rate,effective_start_date,effective_end_date
+Dovato,Commercial,0.145,0.005,0.04,2024-01-01,2026-12-31
+Dovato,Medicaid,0.225,0.004,0.05,2024-01-01,2026-12-31
+Juluca,Commercial,0.135,0.005,0.045,2024-01-01,2026-12-31
+Cabenuva,Specialty,0.16,0.006,0.055,2024-01-01,2026-12-31

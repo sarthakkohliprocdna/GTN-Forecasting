@@ -1,0 +1,18 @@
+MODEL_ZOO = [
+    {"family":"Statistical", "name":"Naive Forecast", "fit":"Stable baseline / low history"},
+    {"family":"Statistical", "name":"Seasonal Naive", "fit":"Strong repeated seasonality"},
+    {"family":"Statistical", "name":"Moving Average 3M", "fit":"Short-term smoothing"},
+    {"family":"Statistical", "name":"Moving Average 6M", "fit":"Medium-term smoothing"},
+    {"family":"Statistical", "name":"Weighted Moving Average", "fit":"Recent-month emphasis"},
+    {"family":"Statistical", "name":"Holt-Winters", "fit":"Trend and seasonality"},
+    {"family":"Regression", "name":"Linear Regression", "fit":"Simple trend-based drivers"},
+    {"family":"Regression", "name":"Ridge Regression", "fit":"Stable regularized trend"},
+    {"family":"Regression", "name":"Lasso Regression", "fit":"Sparse feature selection"},
+    {"family":"Machine Learning", "name":"Decision Tree", "fit":"Nonlinear driver splits"},
+    {"family":"Machine Learning", "name":"Random Forest", "fit":"Robust nonlinear tabular patterns"},
+    {"family":"Machine Learning", "name":"Extra Trees Proxy", "fit":"Variance reduction / robust benchmark"},
+    {"family":"Machine Learning", "name":"Gradient Boosting", "fit":"Nonlinear trend learning"},
+    {"family":"Roadmap", "name":"XGBoost / LightGBM / CatBoost", "fit":"Advanced tabular boosting"},
+    {"family":"Roadmap", "name":"SARIMA / Prophet", "fit":"Classical forecasting extensions"},
+    {"family":"Roadmap", "name":"LSTM / TFT / DeepAR", "fit":"Deep forecasting future state"},
+]

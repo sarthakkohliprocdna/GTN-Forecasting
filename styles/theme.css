@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root { --navy:#0b1328; --blue:#2463ff; --text:#06142e; --muted:#5d6b85; --line:#dfe6f2; --bg:#f5f8fc; }
+html, body, [class*="css"] { font-family:'Inter', sans-serif !important; }
+.stApp { background:var(--bg); color:var(--text); }
+.block-container { padding-top:0 !important; max-width:1440px; }
+div[data-testid="stSidebar"], #MainMenu, footer, header { visibility:hidden; display:none; }
+.stButton > button { border-radius:12px !important; font-weight:700 !important; padding:0.72rem 0.85rem !important; border:1px solid #cfd8e8 !important; background:#ffffff !important; color:#12305f !important; }
+.stButton > button:hover { border-color:var(--blue) !important; color:var(--blue) !important; }
+.stButton > button[kind="primary"] { background:#0e1932 !important; color:#ffffff !important; border-color:#0e1932 !important; }
+.login-page { display:grid; grid-template-columns:1fr 1fr; min-height:88vh; margin:0 -1rem; background:#f7f9fd; }
+.login-left-panel { background:radial-gradient(circle at 18% 95%, rgba(35,99,255,.24), transparent 32%), linear-gradient(135deg,#101a33 0%,#091226 62%,#072233 100%); color:#fff; padding:60px 70px; display:flex; flex-direction:column; justify-content:center; }
+.login-brand-logo { background:rgba(255,255,255,.08); width:fit-content; padding:14px; border-radius:18px; margin-bottom:34px; }
+.login-left-panel h1 { font-size:46px; line-height:1.06; margin:0 0 8px 0; font-weight:800; }
+.login-left-panel h2 { font-size:42px; color:#5b94ff; margin:0 0 28px 0; font-weight:800; }
+.login-left-panel p { color:#c4d2ee; font-size:19px; max-width:650px; line-height:1.6; }
+.login-footer { color:rgba(255,255,255,.42); margin-top:110px; }
+.login-right-panel { display:flex; align-items:center; justify-content:center; padding:40px; }
+.login-form-card { width:460px; background:#fff; border:1px solid var(--line); border-radius:22px; box-shadow:0 18px 50px rgba(10,31,68,.12); padding:34px; margin-top:-170px; }
+.login-logo-row { display:flex; justify-content:flex-end; gap:18px; align-items:center; margin-bottom:24px; }
+.login-form-card h3 { color:var(--text); font-size:28px; margin:0 0 8px; }
+.login-form-card p { color:var(--muted); margin:0; }
+.login-form-overlay { position:fixed; right:calc(25vw - 230px); top:390px; width:460px; z-index:50; }
+.login-form-overlay label { color:#17233d !important; font-weight:700 !important; }
+.login-form-overlay input { border-radius:12px !important; height:48px; }
+.topbar { height:76px; background:#fff; border-bottom:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; padding:0 28px; margin:0 -1rem 24px -1rem; box-shadow:0 2px 12px rgba(10,31,68,.04); }
+.brand-lockup { display:flex; align-items:center; gap:16px; }
+.brand-x { font-size:26px; color:#8a96aa; font-weight:700; }
+.topbar-right { display:flex; align-items:center; gap:12px; }
+.app-badge,.workspace-badge { background:#eef4ff; color:#174dcc; border:1px solid #dbe7ff; padding:10px 14px; border-radius:999px; font-weight:700; font-size:13px; }
+.workspace-badge { background:transparent; color:#25344e; border:none; font-size:15px; }
+.workflow-wrapper { background:#fff; border:1px solid var(--line); border-radius:18px; padding:12px; margin-bottom:36px; box-shadow:0 8px 24px rgba(10,31,68,.06); }
+.workflow-label { color:#6c7890; font-size:12px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; margin:0 0 8px 4px; }
+.page-header { margin:20px 0 24px; }
+.page-header h1 { color:var(--text); font-size:38px; line-height:1.1; font-weight:800; margin-bottom:8px; }
+.page-header p { color:var(--muted); font-size:18px; margin:0; }
+.workspace-title { text-align:center; margin-top:42px; margin-bottom:36px; }
+.workspace-title h1 { color:var(--text); font-size:38px; font-weight:800; margin-bottom:8px; }
+.workspace-title p { color:var(--muted); font-size:18px; margin:0; }
+.workspace-card { background:#fff; border:1px solid var(--line); border-radius:22px; padding:34px; min-height:245px; box-shadow:0 8px 28px rgba(10,31,68,.07); }
+.icon-box { background:#e2edff; color:#1557ff; width:58px; height:58px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:26px; margin-bottom:24px; }
+.workspace-card h3 { font-size:26px; margin:0 0 14px; color:var(--text); }
+.workspace-card p { color:#42516b; font-size:16px; line-height:1.5; }
+.card,.kpi-card,.ai-answer { background:#fff; border:1px solid var(--line); border-radius:22px; padding:28px; margin-bottom:20px; box-shadow:0 8px 24px rgba(10,31,68,.06); }
+.card h3 { margin-top:0; font-size:22px; color:var(--text); }
+.card p,.card li { color:#43536e; font-size:16px; line-height:1.55; }
+.model-card li { margin-bottom:14px; }
+.model-card span { color:#60708b; }
+.step-number { display:inline-flex; width:32px; height:32px; border-radius:999px; align-items:center; justify-content:center; background:#eef4ff; color:#1d5eff; font-weight:800; margin-bottom:14px; }
+.status-card { background:#0e1932; color:#fff; border-radius:22px; padding:28px; box-shadow:0 16px 40px rgba(10,31,68,.18); margin-bottom:20px; }
+.status-card h3 { margin-top:0; color:#fff; font-size:22px; }
+.status-row { display:flex; justify-content:space-between; gap:14px; padding:14px 0; border-bottom:1px solid rgba(255,255,255,.13); }
+.status-row span { color:#bac8e2; }
+.status-row strong { color:#fff; text-align:right; }
+.tip-box { background:#eef5ff; border:1px solid #cfe0ff; color:#174185; border-radius:14px; padding:16px; line-height:1.5; margin-top:14px; }
+.kpi-card span { display:block; color:var(--muted); font-size:14px; margin-bottom:6px; }
+.kpi-card strong { color:var(--text); font-size:28px; font-weight:800; }
+.kpi-card small { display:block; color:var(--muted); margin-top:6px; }
+.ai-answer { border-left:5px solid var(--blue); }
+.ai-answer h3 { margin-top:0; }
+label,.stTextInput label,.stFileUploader label,.stSlider label,.stSelectbox label { color:#1b2942 !important; font-weight:700 !important; }
+.stTextInput input { border-radius:12px !important; }
+div[data-testid="stMetric"] { background:#fff; border:1px solid var(--line); border-radius:18px; padding:18px; box-shadow:0 8px 24px rgba(10,31,68,.06); }
+div[data-testid="stMetricValue"] { color:var(--text); }
+@media (max-width:1000px) { .login-page { grid-template-columns:1fr; } .login-form-overlay { position:static; width:auto; margin:24px; } .login-form-card { margin-top:0; } }
